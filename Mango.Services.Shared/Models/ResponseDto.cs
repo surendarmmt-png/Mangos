@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Mango.Services.Shared.Models
+﻿namespace Mango.Services.Shared.Models
 {
     public class ResponseDto
     {
