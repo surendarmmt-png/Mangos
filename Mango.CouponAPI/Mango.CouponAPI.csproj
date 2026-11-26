@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\Mango.Services.Shared.csproj" />
+    <ProjectReference Include="..\Mango.Services.Shared\Mango.Services.Shared.csproj" />
   </ItemGroup>
 
 </Project>
