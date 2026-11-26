@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "CouponAPIController",
+    "Method": "GetAllCoupons",
+    "RelativePath": "api/coupons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CouponAPIController",
+    "Method": "CreateCoupon",
+    "RelativePath": "api/coupons",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "couponDto",
+        "Type": "Mango.CouponAPI.Models.Dto.CouponDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CouponAPIController",
+    "Method": "UpdateCoupon",
+    "RelativePath": "api/coupons",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "couponDto",
+        "Type": "Mango.CouponAPI.Models.Dto.CouponDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CouponAPIController",
+    "Method": "GetCouponById",
+    "RelativePath": "api/coupons/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CouponAPIController",
+    "Method": "DeleteCoupon",
+    "RelativePath": "api/coupons/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
