@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Both",
+    "Projects": [
+      {
+        "Path": "Mango.CouponAPI\\Mango.CouponAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "Mango.Web\\Mango.Web.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  }
+]
